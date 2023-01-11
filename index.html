@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador de Texto Alura </title>
+    <link rel="Stylesheet" href="reset.css/reset.css">
+    <link rel="stylesheet" href="style.css"">
+    <link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1><img src="Imagenes/Vector.png" </h1>
+        </div>
+    </header>
+    <main>
+
+        <div class="Contenido">
+            <input type="text" id="IngresoText" placeholder="Ingrese Texto Aquí!">
+
+        </div>
+        <div class="rectagulo1">
+            <h1><img src="Imagenes/Muñeco.png"></h1>
+            <h2>Ningún Mensaje fue Encontrado</h2>
+            <p>Ingrese el texto que desees encriptar o desencriptar</p>
+            <textarea name="resultado" id="Textoencripstado"></textarea>
+            <button id="botton3" type="button">Copiar</button>
+        </div>
+
+        <div class="botones">
+            <button id="botton1" type="button">Encriptar</button>
+            <button id="botton2" type="button">Desencriptar</button>
+
+        </div>
+        <div class="Informacion">
+            <p>Solo letras mayusculas y sin acento</p>
+        </div>
+    </main>
+</body>
+<script>
+    var bttn = document.querySelector("#botton1");
+    bttn.onclick = encriptar;
+    var bttn2 = document.querySelector("#botton2");
+    bttn2.onclick = desencriptar;
+    var bttn3 = document.querySelector("#botton3");
+    bttn3.onclick = copiar;
+</script>
+</script>
+
+</html>

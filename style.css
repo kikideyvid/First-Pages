@@ -1,0 +1,228 @@
+body {
+    background: #EFF1FA;
+    font-family: 'Inter';
+    width: 1440px;
+    height: 1024px;
+}
+
+.logo {
+    position: absolute;
+    margin: 40px 84px;
+}
+
+.Contenido input {
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    background: #EFF1FA;
+    border: none;
+    outline: none;
+}
+
+.Contenido input::placeholder {
+    color: #0A3871
+}
+
+#Textoencriptado {
+    position: absolute;
+    width: 400px;
+    height: 944px;
+
+}
+
+.rectagulo1 {
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.rectagulo1 h1 {
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 32px;
+    top: 243px;
+}
+
+.rectagulo1 h2 {
+    width: 336px;
+    height: 48px;
+    margin-top: 579px;
+    margin-left: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+
+}
+
+.rectagulo1 p {
+    width: 336px;
+    height: 48px;
+    margin-left: 32px;
+    margin-top: 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+
+}
+
+#Textoencripstado {
+    display: none;
+    position: absolute;
+    width: 336px;
+    height: 781px;
+    left: 32px;
+    top: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+.botones {
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+}
+
+#botton1 {
+    font-size: 16px;
+    color: white;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    transition: 900ms;
+    border: none;
+    cursor: pointer;
+
+}
+#botton1:hover {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.63);
+    width: 328px;
+    height: 67px;
+    background: #0a4083;
+    border-radius: 24px;
+}
+
+#botton2 {
+
+    font-size: 16px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #455669;
+    border-radius: 24px;
+    transition: 900ms;
+}
+
+#botton2:hover {
+
+    font-size: 15px;
+    width: 328px;
+    height: 67px;
+    background: #c7d6e9;
+    border: 1px solid #c7d6e9;
+    border-radius: 24px;
+
+
+
+}
+
+#botton3 {
+    display: none;
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 32px;
+    top: 840px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    width: 336px;
+    font-size: 16px;
+    transition: 900ms;
+
+}
+
+#botton3:hover {
+    display: none;
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 32px;
+    top: 840px;
+    background: #c7d6e9;
+    border: 1px solid #c7d6e9;
+    border-radius: 24px;
+
+}
+
+.Informacion {
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 851px;
+}
+
+.Informacion p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+
+}
+
+.Informacion P::before {
+    content: "🛈";
+    padding: 3px;
+}
+
+@media screen and (max-width:480px) {
+
+    .logo,
+    .Contenido,
+    .rectagulo1,
+    .botones,
+    .Informacion {
+        width: auto;
+
+    }
+
+    body {
+        width: auto;
+
+    }
+}
